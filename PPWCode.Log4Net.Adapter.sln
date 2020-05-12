@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "package", "package", "{E44D00BE-F543-4893-B398-8A9388FC0223}"
+ProjectSection(SolutionItems) = preProject
+	LICENSE = LICENSE
+	README.md = README.md
+	assets\ppwcode_logo.jpg = assets\ppwcode_logo.jpg
+	NOTICE = NOTICE
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "psake", "psake", "{292410B9-501A-4261-B5F9-B6FB0DBB5DD5}"
+ProjectSection(SolutionItems) = preProject
+	init-psake.ps1 = init-psake.ps1
+	psakefile.ps1 = psakefile.ps1
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-items", "solution-items", "{CF9FC326-0994-424B-B655-3DE0F3BFA7E0}"
+ProjectSection(SolutionItems) = preProject
+	src\Directory.Build.props = src\Directory.Build.props
+	src\version.props = src\version.props
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "style-cop", "style-cop", "{8A259794-20FF-4744-B2EC-7DAE7C97E273}"
+ProjectSection(SolutionItems) = preProject
+	src\StyleCop.ruleset = src\StyleCop.ruleset
+	src\StyleCop-Tests.ruleset = src\StyleCop-Tests.ruleset
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPWCode.Log4Net.Adapter", "src\PPWCode.Log4Net.Adapter\PPWCode.Log4Net.Adapter.csproj", "{95CB19D8-9BB9-4963-8DF5-2F1FA8B115EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95CB19D8-9BB9-4963-8DF5-2F1FA8B115EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95CB19D8-9BB9-4963-8DF5-2F1FA8B115EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95CB19D8-9BB9-4963-8DF5-2F1FA8B115EF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{95CB19D8-9BB9-4963-8DF5-2F1FA8B115EF}.Debug|x64.Build.0 = Debug|Any CPU
+		{95CB19D8-9BB9-4963-8DF5-2F1FA8B115EF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{95CB19D8-9BB9-4963-8DF5-2F1FA8B115EF}.Debug|x86.Build.0 = Debug|Any CPU
+		{95CB19D8-9BB9-4963-8DF5-2F1FA8B115EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95CB19D8-9BB9-4963-8DF5-2F1FA8B115EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95CB19D8-9BB9-4963-8DF5-2F1FA8B115EF}.Release|x64.ActiveCfg = Release|Any CPU
+		{95CB19D8-9BB9-4963-8DF5-2F1FA8B115EF}.Release|x64.Build.0 = Release|Any CPU
+		{95CB19D8-9BB9-4963-8DF5-2F1FA8B115EF}.Release|x86.ActiveCfg = Release|Any CPU
+		{95CB19D8-9BB9-4963-8DF5-2F1FA8B115EF}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
